@@ -13,7 +13,7 @@ defmodule LiveSupWeb.Live.Widgets.Rollbar.ListOfIssuesLive do
       <!-- Rollbar list of issues -->
       <WidgetHeaderComponent.render widget_data={widget_data} />
       <div class="ls-widget-body-default">
-        <div class="my-3">
+        <div>
           <%= if Enum.any?(widget_data.data) do %>
             <div class="gap-2 pb-2 flex">
               <span class="text-x font-bold basis-9/12">Error</span>
